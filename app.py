@@ -29,11 +29,11 @@ from analytics_module import (
 )
 
 # ---------------------------------------------------------------------------
-# Configuración de página e inyección CSS iOS 26
+# Configuración de página e inyección CSS estilo iOS 26
 # ---------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="EduAnalytics · LA Platform",
+    page_title="eUniv EduAnalytics",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
