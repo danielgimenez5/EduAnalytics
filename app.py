@@ -759,7 +759,7 @@ with st.sidebar:
     st.markdown("""
     <div style="font-size:10px;color:#C7C7CC;text-align:center;padding-top:8px;
                 line-height:1.6;letter-spacing:0.1px;">
-        Proyecto académico · Análisis de Datos II<br>
+        Daniel Giménez · eUniv - Análisis de Datos II<br>
         Criptografía · Blockchain · Learning Analytics
     </div>
     """, unsafe_allow_html=True)
@@ -775,8 +775,8 @@ st.markdown("""
 <div class="ios-header">
     <div class="ios-header-icon">🎓</div>
     <div class="ios-header-title">
-        <h1>EduAnalytics Platform</h1>
-        <p>Análisis de Datos · Criptografía · Blockchain — iOS 26 Design</p>
+        <h1>Herramienta eUniv EduAnalytics</h1>
+        <p>Análisis de Datos · Learning Analytics · Criptografía · Blockchain - Desarrollada por Daniel Giménez</p>
     </div>
 </div>
 """, unsafe_allow_html=True)
