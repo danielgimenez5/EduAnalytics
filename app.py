@@ -837,7 +837,7 @@ if pagina == "📊  Panel General":
     st.dataframe(
         df_display.style
         .format({"Nota": "{:.1f}", "Asistencia %": "{:.1f}%", "Índice Riesgo": "{:.3f}"})
-        .applymap(color_riesgo, subset=["⚠️ Riesgo"])
+        .map(color_riesgo, subset=["⚠️ Riesgo"])
         .set_properties(**{"font-size": "12px"}),
         use_container_width=True, height=400,
     )
